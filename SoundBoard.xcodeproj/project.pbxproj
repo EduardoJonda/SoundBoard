@@ -13,6 +13,7 @@
 		E268E52A209A4BDC00766495 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E268E528209A4BDC00766495 /* SoundBoard.xcdatamodeld */; };
 		E268E52C209A4BDC00766495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E268E52B209A4BDC00766495 /* Assets.xcassets */; };
 		E268E52F209A4BDC00766495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E268E52D209A4BDC00766495 /* LaunchScreen.storyboard */; };
+		E268E537209A66DA00766495 /* SounViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E268E536209A66DA00766495 /* SounViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E268E52B209A4BDC00766495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E268E52E209A4BDC00766495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E268E530209A4BDC00766495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E268E536209A66DA00766495 /* SounViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SounViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E268E521209A4BDC00766495 /* AppDelegate.swift */,
 				E268E523209A4BDC00766495 /* ViewController.swift */,
 				E268E525209A4BDC00766495 /* Main.storyboard */,
+				E268E536209A66DA00766495 /* SounViewController.swift */,
 				E268E52B209A4BDC00766495 /* Assets.xcassets */,
 				E268E52D209A4BDC00766495 /* LaunchScreen.storyboard */,
 				E268E530209A4BDC00766495 /* Info.plist */,
@@ -142,6 +145,7 @@
 				E268E52A209A4BDC00766495 /* SoundBoard.xcdatamodeld in Sources */,
 				E268E524209A4BDC00766495 /* ViewController.swift in Sources */,
 				E268E522209A4BDC00766495 /* AppDelegate.swift in Sources */,
+				E268E537209A66DA00766495 /* SounViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -281,6 +286,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
